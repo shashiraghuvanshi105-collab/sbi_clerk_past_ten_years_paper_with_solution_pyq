@@ -1,0 +1,41 @@
+# ==================================
+# SBI Clerk Exam Portal — .gitignore
+# ==================================
+
+# Build scripts (contain local system paths)
+build_cia_documents.py
+scratch/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+*.secret
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.bak
+*.log
