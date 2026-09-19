@@ -956,3 +956,91 @@ input:focus-visible {
     border: 1px solid #ccc;
   }
 }
+
+/* ==========================================================================
+   SEO Crawlable Year Directory Section
+   ========================================================================== */
+.seo-year-matrix {
+  margin-top: 48px;
+  padding: 32px 24px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
+}
+
+.matrix-header {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.matrix-header h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.matrix-header p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.matrix-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.matrix-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.matrix-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary-accent);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.15);
+}
+
+.matrix-year {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary-accent);
+  margin-bottom: 6px;
+}
+
+.matrix-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  margin-bottom: 12px;
+  flex-grow: 1;
+}
+
+.matrix-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge-phase {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary-accent);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
