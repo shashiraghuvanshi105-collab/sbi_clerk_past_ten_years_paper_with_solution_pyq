@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sbi-clerk-past-ten-year-paper-with.vercel.app/sitemap.xml
